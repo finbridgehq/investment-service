@@ -1,5 +1,5 @@
 # language: es
-@EP01 @US07 @servicio_investment @pending
+@EP01 @US07 @servicio_investment
 Característica: Seguimiento del fondeo
   Como empresario MYPE
   Quiero conocer el avance del fondeo de mi factura
@@ -16,4 +16,4 @@ Característica: Seguimiento del fondeo
     Dado que las participaciones registradas alcanzan el 100 % del monto objetivo
     Cuando el sistema confirma el fondeo completo de la operación
     Entonces cambia su estado a "Fondeada"
-    Y registra la fecha estimada de transferencia del adelanto
+    Y ya no acepta nuevas participaciones
